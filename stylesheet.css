@@ -1,0 +1,58 @@
+/* Gesamte Seite */
+body {
+    background-color: #e6d8ff; /* Hell-Lila Hintergrund */
+    margin: 0;
+  }
+  
+  /* Header: Titelbereich */
+  .custom-header {
+    background-color: #13006a; /* Dunkelblau */
+    color: white;
+  }
+  
+  /* Navigation */
+  .custom-nav {
+    background-color: #4a1dbf; /* Lila */
+  }
+  
+  .custom-nav .nav-link {
+    color: white; /* Navigationstexte */
+  }
+  
+  .custom-nav .nav-link:hover {
+    color: #ddd; /* Leichter Farbwechsel bei Hover */
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+    background-color: #e6d8ff; /* Hell-Lila */
+    color: black; /* Standardtextfarbe */
+  }
+  
+  /* Footer */
+  .custom-footer {
+    background-color: #4a1dbf; /* Lila */
+    color: white;
+  }
+  
+  .custom-footer p {
+    margin: 0;
+  }
+ 
+    /* Flexbox für Body */
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1; /* Hauptinhalt nimmt den restlichen Platz ein */
+    }
+
+    
