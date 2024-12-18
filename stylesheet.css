@@ -23,7 +23,6 @@ body {
     color: #ddd; /* Leichter Farbwechsel bei Hover */
   }
   
-  /* Main Content */
   main {
     padding: 20px;
     background-color: #e6d8ff; /* Hell-Lila */
@@ -54,5 +53,18 @@ body {
     main {
       flex: 1; /* Hauptinhalt nimmt den restlichen Platz ein */
     }
-
-    
+    h2{
+        font-weight: 600; 
+    }
+    h1{
+      font-weight: bold;
+    }
+    .custom-footer {
+      background-color: #4a1dbf; /* Lila */
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;   /* Macht den Footer fixiert */
+      bottom: 0;         /* Positioniert ihn am unteren Rand */
+      width: 100%;       
+    }
