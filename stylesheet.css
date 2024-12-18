@@ -40,13 +40,44 @@ main {
 }
 
 .image-container {
-  flex: 0; 
-  margin-left: auto; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
 }
 
-.image-container img {
-  display: inline-block; 
+
+.last-image {
+  display: flex;  
+  gap: 20px; 
+  justify-content: flex-start; 
+  flex-wrap: nowrap; 
+  margin-top: 20px;
+  margin-left: -20px; 
+}
+
+.last-image img {
+  width: 150px;  
+  height: auto; 
   border-radius: 10px; 
+}
+
+
+.image-container .d-flex img {
+  margin-left: -30px; /* Verschiebt beide Bilder nach links */
+}
+
+
+.image-container .d-flex {
+  display: flex;
+  gap: 20px; /* Abstand zwischen den beiden Bildern */
+  justify-content: flex-start; /* Stellt sicher, dass die Bilder von links beginnen */
+}
+
+/* Abstände zwischen den Bildern weiter anpassen */
+.image-container .d-flex img:first-child {
+  margin-right: 20px; /* Abstand zwischen den beiden Bildern */
 }
 
 h2 {
@@ -67,11 +98,9 @@ h1 {
   width: 100%;       
 }
 
-
 .custom-footer p {
   margin: 0;
 }
-
 
 body {
   display: flex;
@@ -79,6 +108,7 @@ body {
   height: 100%;
   margin: 0;
 }
+
 .btn-darkblue {
   background-color: #13006a; 
   color: white; 
@@ -88,4 +118,7 @@ body {
 .btn-darkblue:hover {
   background-color: #855dea; 
   color: #ddd; 
+}
+img{
+  border-radius: 10px;
 }
