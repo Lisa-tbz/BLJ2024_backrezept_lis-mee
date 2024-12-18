@@ -1,70 +1,91 @@
+body {
+  background-color: #e6d8ff; /* Hell-Lila Hintergrund */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.custom-header {
+  background-color: #13006a; /* Dunkelblau */
+  color: white;
+  padding: 20px 0;
+}
+
+/* Navigation */
+.custom-nav {
+  background-color: #4a1dbf; /* Lila */
+}
+
+.custom-nav .nav-link {
+  color: white; /* Navigationstexte */
+}
+
+.custom-nav .nav-link:hover {
+  color: #a3c3ea; 
+}
+
+main {
+  padding: 20px;
+  background-color: #e6d8ff; 
+  color: black;
+  flex-grow: 1; 
+  display: flex; 
+  gap: 20px; 
+  align-items: flex-start; 
+}
+
+.instructions {
+  flex: 1; 
+}
+
+.image-container {
+  flex: 0; 
+  margin-left: auto; 
+}
+
+.image-container img {
+  display: inline-block; 
+  border-radius: 10px; 
+}
+
+h2 {
+  font-weight: 600; 
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.custom-footer {
+  background-color: #4a1dbf; /* Lila */
+  color: white;
+  text-align: center;
+  padding: 5px 0; /* Weniger Padding für einen kleineren Footer */
+  position: fixed;   
+  bottom: 0;         
+  width: 100%;       
+}
+
+
+.custom-footer p {
+  margin: 0;
+}
+
 
 body {
-    background-color: #e6d8ff; /* Hell-Lila Hintergrund */
-    margin: 0;
-  }
-  
-  /* Header: Titelbereich */
-  .custom-header {
-    background-color: #13006a; /* Dunkelblau */
-    color: white;
-  }
-  
-  /* Navigation */
-  .custom-nav {
-    background-color: #4a1dbf; /* Lila */
-  }
-  
-  .custom-nav .nav-link {
-    color: white; /* Navigationstexte */
-  }
-  
-  .custom-nav .nav-link:hover {
-    color: #ddd; /* Leichter Farbwechsel bei Hover */
-  }
-  
-  main {
-    padding: 20px;
-    background-color: #e6d8ff; /* Hell-Lila */
-    color: black; /* Standardtextfarbe */
-  }
-  
-  /* Footer */
-  .custom-footer {
-    background-color: #4a1dbf; /* Lila */
-    color: white;
-  }
-  
-  .custom-footer p {
-    margin: 0;
-  }
- 
-    /* Flexbox für Body */
-    html, body {
-      height: 100%;
-      margin: 0;
-    }
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+.btn-darkblue {
+  background-color: #13006a; 
+  color: white; 
+  border: black; 
+}
 
-    body {
-      display: flex;
-      flex-direction: column;
-    }
-
-    main {
-      flex: 1; /* Hauptinhalt nimmt den restlichen Platz ein */
-    }
-    h2{
-        font-weight: 600; 
-    }
-    h1{
-      font-weight: bold;
-    }
-    .custom-footer {
-      background-color: #4a1dbf; /* Lila */
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-      position: fixed;   /* Macht den Footer fixiert */
-      bottom: 0;         /* Positioniert ihn am unteren Rand */
-      width: 100%;       
-    }
+.btn-darkblue:hover {
+  background-color: #855dea; 
+  color: #ddd; 
+}
