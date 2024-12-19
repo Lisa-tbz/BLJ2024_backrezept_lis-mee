@@ -18,11 +18,16 @@ body {
 }
 
 .custom-nav .nav-link {
-  color: white; /* Navigationstexte */
+  color: rgb(242, 238, 245); /* Navigationstexte */
 }
 
 .custom-nav .nav-link:hover {
-  color: #a3c3ea; 
+  color: #4b0897; 
+}
+nav a:hover{
+  background-color: #995cfc;
+  border-radius: 10px;
+
 }
 
 main {
@@ -71,13 +76,13 @@ main {
 
 .image-container .d-flex {
   display: flex;
-  gap: 20px; /* Abstand zwischen den beiden Bildern */
-  justify-content: flex-start; /* Stellt sicher, dass die Bilder von links beginnen */
+  gap: 20px; 
+  justify-content: flex-start; 
 }
 
-/* Abstände zwischen den Bildern weiter anpassen */
+
 .image-container .d-flex img:first-child {
-  margin-right: 20px; /* Abstand zwischen den beiden Bildern */
+  margin-right: 20px; 
 }
 
 h2 {
@@ -89,7 +94,7 @@ h1 {
 }
 
 .custom-footer {
-  background-color: #4a1dbf; /* Lila */
+  background-color: #4a1dbf; 
   color: white;
   text-align: center;
   padding: 5px 0; /* Weniger Padding für einen kleineren Footer */
